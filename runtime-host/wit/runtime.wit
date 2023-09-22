@@ -1,0 +1,11 @@
+// https://github.com/WebAssembly/component-model/blob/main/design/mvp/WIT.md
+// https://github.com/WebAssembly/WASI/blob/main/docs/WitInWasi.md#Resources
+
+package wizard:runtime
+
+world runtime {
+  import debug
+  import renderer
+
+  export guest
+}

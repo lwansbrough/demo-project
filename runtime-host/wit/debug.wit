@@ -1,0 +1,3 @@
+interface debug {
+  log: func(msg: string)
+}

@@ -1,0 +1,6 @@
+interface guest {
+  use renderer.{gpu-device, gpu-command-buffer, gpu-texture-view}
+
+  init: func()
+  render: func(device: borrow<gpu-device>, view: gpu-texture-view) -> option<gpu-command-buffer>
+}
